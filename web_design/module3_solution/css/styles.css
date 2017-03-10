@@ -1,0 +1,23 @@
+
+* {
+        box-sizing: border-box;
+}
+
+h1, h4{
+    text-align: center;
+}
+
+
+.text-box {
+    padding-top: 10px;
+    margin: 10px;
+    position: relative;
+    background-color: #a1a7af;
+}
+
+p {
+    margin: 10px;
+}
+.bg-grey {
+    background-color: #a1a7af;
+}
