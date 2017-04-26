@@ -34,6 +34,14 @@ function FoundItemsDirectiveController() {
       }
   };
 
+  list.isNotEmpty = function(){
+      if ( Array.isArray(list.items) && (list.items.length > 0)) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+
 }
 
 

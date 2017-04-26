@@ -1,4 +1,6 @@
-
+<div class="error" ng-show="list.isNotEmpty()">
+<h3>   Search Results: </h3>
+<br />
 
 <ul>
     <li ng-repeat="item in list.items">
@@ -7,6 +9,10 @@
      {{item.short_name}}, {{item.name}} -- {{item.description}}
     </li>
 </ul>
+</div>
 
 
-<div class="error" ng-if="list.isEmpty()">Nothing found.</div>
+<div class="error" ng-show="list.isEmpty()">
+<br />
+<h3>    Nothing found. </h3>
+</div>
