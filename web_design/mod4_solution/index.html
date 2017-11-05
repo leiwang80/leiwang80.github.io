@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-app="MenuApp">
+    <!-- <div ng-controller="TestController as test">
+        hello.
+        {{test.message}}
+    </div> -->
+
+<ui-view />  </ui-view>
+<!-- <categories></categories> -->
+
+<!-- Libraries -->
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-ui-router.min.js"></script>
+
+<!-- Modules -->
+<script src="src/data/data.module.js"></script>
+<script src="src/menu/menuapp.module.js"></script>
+
+<!-- Routes -->
+<script src="src/routes.js"></script>
+
+<!-- Artifacts-->
+<script src="src/data/menudata.service.js"></script>
+<script src="src/menu/category.controller.js"></script>
+<script src="src/menu/categories.component.js"></script>
+<script src="src/menu/item.controller.js"></script>
+<script src="src/menu/items.component.js"></script>
+
+
+
+</body>
+
+</html>

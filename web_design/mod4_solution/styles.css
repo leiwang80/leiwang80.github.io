@@ -1,0 +1,10 @@
+.item_name {
+    float: left;
+    width: 300px;
+    font-weight: bold;
+}
+
+.item_detail {
+    float: left;
+    width: 150px;
+}
